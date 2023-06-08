@@ -294,7 +294,8 @@ html, body {
   margin-right: 50px;
   margin-bottom: 150px;
 }
-.cortando-container .cortando-container p {
+
+.cortando-container p {
   text-align: center;
   justify-content: center;
   margin-top: 200px;
