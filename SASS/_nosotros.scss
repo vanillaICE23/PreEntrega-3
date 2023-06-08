@@ -7,13 +7,14 @@
     margin-left: 50px;
     margin-top: 150px;
     margin-right: 50px;
-    .casco-container p{
-        text-align: center;
-        justify-content: center;
-        margin-top: 200px;
-        padding-left: 20px;
-    }
     
+    
+}
+.casco-container p{
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+    padding-left: 20px;
 }
 
 
@@ -23,12 +24,13 @@
     margin-left: 50px;
     margin-top: 150px;
     margin-right: 50px;
-    .moto-container p{
-        text-align: center;
-        justify-content: center;
-        margin-top: 200px;
-        padding-left: 20px;
-    }
+    
+}
+.moto-container p{
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px !important;
+    padding-left: 20px;
 }
 
 
@@ -55,14 +57,17 @@
 
 
 /*** NOSOTROS MEDIAQUERIES ****/
-@media (max-width:530px) {
+@media (max-width:450px) {
     .card-title{
-        font-size: 50px;
+        font-size: 50px !important;
     }
 }
 @media (max-width:850px){
     .moto-container img{
         height: 500px; 
+    }
+    .moto-container p{
+        margin-top: 100px !important;
     }
 }
 @media (max-width:800px){

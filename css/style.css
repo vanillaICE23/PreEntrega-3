@@ -100,36 +100,44 @@ html, body {
   margin-right: 65px;
   margin-bottom: 200px;
 }
-.destacados-container .destacados-cortes {
+
+.destacados-cortes {
   display: flex;
   justify-content: space-between;
   text-align: center;
   margin-bottom: 100px;
 }
-.destacados-container .destacados-cortes a {
+
+.destacados-cortes a {
   color: rgb(0, 0, 0);
 }
-.destacados-container .destacados-cards {
+
+.destacados-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 500px;
   grid-template-areas: "destacados-crest" "destacados-low" "destacados-high" "destacados-crest" "destacados-low" "destacados-high" "destacados-crest" "destacados-low" "destacados-high";
   gap: 30px;
 }
-.destacados-container .destacados-crest {
+
+.destacados-crest {
   grid-area: "destacados-crest";
 }
-.destacados-container .destacados-low {
+
+.destacados-low {
   grid-area: "destacados-low";
 }
-.destacados-container .destacados-high {
+
+.destacados-high {
   grid-area: "destacados-high";
 }
-.destacados-container .destacados-cards img {
+
+.destacados-cards img {
   width: 100%;
   height: 500px;
 }
-.destacados-container .destacados-subtitle {
+
+.destacados-subtitle {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -181,19 +189,18 @@ html, body {
   height: 300px;
   background-color: rgba(0, 0, 0, 0.401);
   margin-bottom: 40px;
-  /**FOOTER DERECHOS**/
-  /** footer barranav **/
 }
-.footer-container .footer-container p {
+.footer-container p {
   margin-left: 200px;
 }
-.footer-container .footer-texts {
+
+.footer-texts {
   margin-right: 200px;
 }
-.footer-container .footer-texts li {
+.footer-texts li {
   padding: 8px;
 }
-.footer-container .footer-texts li a {
+.footer-texts li a {
   color: black;
   text-decoration: underline;
   font-size: 12px;
@@ -265,7 +272,8 @@ html, body {
   margin-top: 150px;
   margin-right: 50px;
 }
-.casco-container .casco-container p {
+
+.casco-container p {
   text-align: center;
   justify-content: center;
   margin-top: 200px;
@@ -279,10 +287,11 @@ html, body {
   margin-top: 150px;
   margin-right: 50px;
 }
-.moto-container .moto-container p {
+
+.moto-container p {
   text-align: center;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 200px !important;
   padding-left: 20px;
 }
 
@@ -305,14 +314,17 @@ html, body {
 /** MAIN NOSOTROS IMAGENES **/
 /** FIN MAIN NOSOTROS **/
 /*** NOSOTROS MEDIAQUERIES ****/
-@media (max-width: 530px) {
+@media (max-width: 450px) {
   .card-title {
-    font-size: 50px;
+    font-size: 50px !important;
   }
 }
 @media (max-width: 850px) {
   .moto-container img {
     height: 500px;
+  }
+  .moto-container p {
+    margin-top: 100px !important;
   }
 }
 @media (max-width: 800px) {
@@ -386,12 +398,13 @@ html, body {
   justify-content: space-around;
   margin-top: 150px;
 }
-.cortes-container .cortes-container img {
+.cortes-container img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
 }
-.cortes-container .cortes-texts {
+
+.cortes-texts {
   margin-top: 100px;
   margin-left: 20px;
 }
@@ -402,12 +415,13 @@ html, body {
   justify-content: space-around;
   margin-top: 150px;
 }
-.unisex-container .unisex-container img {
+.unisex-container img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
 }
-.unisex-container .unisex-texts {
+
+.unisex-texts {
   margin-top: 100px;
   margin-left: 20px;
 }
@@ -419,12 +433,13 @@ html, body {
   margin-top: 150px;
   margin-bottom: 150px;
 }
-.color-container .color-container img {
+.color-container img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
 }
-.color-container .color-texts {
+
+.color-texts {
   margin-top: 100px;
   margin-left: 20px;
 }
