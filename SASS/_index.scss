@@ -1,0 +1,161 @@
+/** INDEX **/
+
+/**MAIN INDEX**/
+
+/**BANNERHIGH INDEX*/
+.banner-container{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/banner-pp.png);
+    background-size: cover;
+    background-position: center;
+}
+.banner-texts {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+.banner-texts h1 a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.banner-title {
+    margin-bottom: 70px;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.811);
+    padding: 15px;
+}
+.banner-texts-bottom a {
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 40px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.813);
+    color: white;
+    padding: 10px;
+}
+.banner-cta-nosotros {
+    margin-right: 50px;
+}
+.banner-cta-servicios {
+    margin-left: 50px;
+}
+/**BANNERHIGH INDEX*/
+
+/**DESCRIPCIÓN INDEX*/
+.about-container {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-texts {
+    width: 90%;
+    height: 60%;
+}
+.about-title {
+    font-size: 30px;
+}
+.about-paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.about-paragraph p {
+    margin: 20px;
+}
+/**DESCRIPCIÓN INDEX**/
+
+/**DESTACADOS INDEX**/
+.destacados-container {
+    margin-top: 200px;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-bottom: 200px;
+}
+.destacados-cortes {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.destacados-cortes a {
+    color: rgb(0, 0, 0);
+}
+.destacados-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 500px;
+    grid-template-areas:
+        "destacados-crest" "destacados-low" "destacados-high"
+        "destacados-crest" "destacados-low" "destacados-high"
+        "destacados-crest" "destacados-low" "destacados-high";
+    gap: 30px;
+}
+.destacados-crest {
+    grid-area: "destacados-crest";
+}
+.destacados-low {
+    grid-area: "destacados-low";
+}
+.destacados-high {
+    grid-area: "destacados-high";
+}
+.destacados-cards img {
+    width: 100%;
+    height: 500px;
+}
+.destacados-subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.611);
+}
+/**DESTACADOS INDEX**/
+
+
+
+/**INDEX MEDIAQUERIES**/
+
+@media (max-width:700px){
+    .about-paragraph{
+        font-size: 12px;
+    }
+}
+@media (max-width:450px){
+    .destacados-cards {
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 500px;
+        grid-template-areas:
+            "destacados-crest" 
+            "destacados-low" 
+            "destacados-high";    
+    }
+    .destacados-low{
+        margin-top: 50px;
+    }
+    .destacados-cta{
+        font-size: 10px;
+    }
+    .about-paragraph{
+        display: block;
+    }
+    .about-paragraph-2{
+        padding-top: 20px;
+    }
+    .reserva-container{
+        margin-top: 150px;
+    }
+    .banner-title{
+        font-size: 20px;
+    }
+}
+/**INDEX MEDIAQUERIES**/

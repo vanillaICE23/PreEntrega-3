@@ -1,0 +1,131 @@
+/**** MAIN NOSOTROS  ****/
+/** MAIN NOSOTROS IMAGENES **/
+.casco-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 150px;
+    margin-right: 50px;
+    
+}
+.casco-container p{
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+    padding-left: 20px;
+}
+
+.moto-container{
+    display: flex;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 150px;
+    margin-right: 50px;
+}
+.moto-container p{
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+    padding-left: 20px;
+}
+
+.cortando-container{
+    display: flex;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 150px;
+    margin-right: 50px;
+    margin-bottom: 150px;
+}
+
+.cortando-container p{
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+    padding-left: 20px;
+    
+}
+/** MAIN NOSOTROS IMAGENES **/
+/** FIN MAIN NOSOTROS **/
+
+
+
+
+/*** NOSOTROS MEDIAQUERIES ****/
+@media (max-width:530px) {
+    .card-title{
+        font-size: 50px;
+    }
+}
+@media (max-width:850px){
+    .moto-container img{
+        height: 500px; 
+    }
+}
+@media (max-width:800px){
+    .casco-container p{
+        align-items: center !important;
+        justify-content: center !important;
+        margin-top: 100px;
+    }
+    .casco-container img{
+        height: 400px !important;
+        width: 400px !important;
+    }
+    .moto-container img{
+        height: 400px !important;
+        width: 400px !important;
+    }
+    .moto-container p{
+        align-items: center !important;
+        justify-content: center !important;
+        margin-top: 100px;
+
+    }
+    .cortando-picture{
+        height: 400px !important;
+        width: 400px !important;
+    }
+    .cortando-container p{
+        align-items: center !important;
+        justify-content: center !important;
+        margin-top: 100px;
+    }
+}
+@media (max-width:750px){
+    .casco-container p{
+        font-size: 10px;
+    }
+    .moto-container p{
+        font-size: 10px;
+    }
+    .cortando-container p{
+        font-size: 10px;
+    }
+}
+@media (max-width:650px){
+    .moto-container{
+        display: block;
+    }
+    .moto-container img{
+        height: 300px !important;
+        width: 300px !important;
+    }
+    .casco-container{
+        display: block;
+    }
+    .casco-container img{
+        height: 300px !important;
+        width: 300px !important;
+    }
+    .cortando-container{
+        display: block;
+    }
+    .cortando-picture{
+        height: 300px !important;
+        width: 300px !important;
+    }
+
+}
+/*** NOSOTROS MEDIAQUERIES****/
