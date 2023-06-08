@@ -7,14 +7,15 @@
     margin-left: 50px;
     margin-top: 150px;
     margin-right: 50px;
+    .casco-container p{
+        text-align: center;
+        justify-content: center;
+        margin-top: 200px;
+        padding-left: 20px;
+    }
     
 }
-.casco-container p{
-    text-align: center;
-    justify-content: center;
-    margin-top: 200px;
-    padding-left: 20px;
-}
+
 
 .moto-container{
     display: flex;
@@ -22,13 +23,14 @@
     margin-left: 50px;
     margin-top: 150px;
     margin-right: 50px;
+    .moto-container p{
+        text-align: center;
+        justify-content: center;
+        margin-top: 200px;
+        padding-left: 20px;
+    }
 }
-.moto-container p{
-    text-align: center;
-    justify-content: center;
-    margin-top: 200px;
-    padding-left: 20px;
-}
+
 
 .cortando-container{
     display: flex;
@@ -37,14 +39,13 @@
     margin-top: 150px;
     margin-right: 50px;
     margin-bottom: 150px;
-}
-
-.cortando-container p{
-    text-align: center;
-    justify-content: center;
-    margin-top: 200px;
-    padding-left: 20px;
-    
+    .cortando-container p{
+        text-align: center;
+        justify-content: center;
+        margin-top: 200px;
+        padding-left: 20px;
+        
+    }
 }
 /** MAIN NOSOTROS IMAGENES **/
 /** FIN MAIN NOSOTROS **/

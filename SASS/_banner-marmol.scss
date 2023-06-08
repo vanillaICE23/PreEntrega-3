@@ -1,5 +1,5 @@
 /****  BANNER DE MARMOL  ****/
-
+/**
 .banner-marmol-texts {
     background-image: url(../images/pared-marmol.jpg);
     width: 100%;
@@ -10,4 +10,25 @@
     padding-left: 16%;
     font-size: 25px;
 }
+**/
 /****  BANNER DE MARMOL  ****/
+
+/*****  CARD MARMOL  ******/
+.card{
+    justify-content: center;
+    width: 100%;
+    .card-img{
+        height: 500px;
+        
+    }
+    .card-img-overlay{
+        margin-top: 150px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .card-title{
+        font-size:100px ;
+    }
+}
+
+/*****  CARD MARMOL  ******/

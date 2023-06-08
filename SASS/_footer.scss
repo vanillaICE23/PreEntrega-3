@@ -9,31 +9,28 @@
     height: 300px;
     background-color: rgba(0, 0, 0, 0.401);
     margin-bottom: 40px;
-}
-
-/**FOOTER DERECHOS**/
-.footer-container p {
-    margin-left: 200px;
-}
-/**FIN FOOTER DERECHOS**/
-
-/** footer barranav **/
-.footer-texts {
-    margin-right: 200px;
     
-}
-
-.footer-texts li {
-    padding: 8px;
+    /**FOOTER DERECHOS**/
+    .footer-container p {
+        margin-left: 200px;
+    }
+    /** footer barranav **/
+    .footer-texts {
+        margin-right: 200px;
+        
+    }
     
+    .footer-texts li {
+        padding: 8px;
+        
+    }
+    
+    .footer-texts li a {
+        color: black;
+        text-decoration: underline;
+        font-size: 12px;
+    }
 }
 
-.footer-texts li a {
-    color: black;
-    text-decoration: underline;
-    font-size: 12px;
-}
 
-/** fin footer barranav **/
 
-/****     TERMINA FOOTER DE TODA LA PAG  ****/
