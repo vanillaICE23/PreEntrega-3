@@ -242,7 +242,7 @@ html, body {
   justify-content: center;
   width: 100%;
 }
-.card img {
+.card .card-img {
   height: 500px;
 }
 .card .card-img-overlay {
