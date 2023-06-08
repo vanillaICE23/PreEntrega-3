@@ -88,6 +88,7 @@ html, body {
 
 .about-title {
   font-size: 30px;
+  transition: all 2s;
 }
 
 .about-paragraph {

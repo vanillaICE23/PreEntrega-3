@@ -3,9 +3,9 @@
 /***IMPORTS***/
 @import "reseteo";
 @import "index";
-@import "footer";
-@import "reserva";
-@import "banner-marmol";
+@import "./componentes/footer";
+@import "./componentes/reserva";
+@import "./componentes/banner-marmol";
 @import "nosotros";
 @import "servicios";
 @import "trabajos";
